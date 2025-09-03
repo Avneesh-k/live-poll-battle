@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: live-poll-backend
+    env: node
+    rootDir: server
+    buildCommand: npm install
+    startCommand: npm start
+    plan: free
