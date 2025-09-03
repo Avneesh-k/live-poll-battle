@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import socket from "./socket";
 
 function App() {
-  const [step, setStep] = useState("join"); // join | poll
+  const [step, setStep] = useState("join"); 
   const [name, setName] = useState("");
   const [roomCode, setRoomCode] = useState("");
   const [question, setQuestion] = useState("");
@@ -11,7 +11,7 @@ function App() {
   const [vote, setVote] = useState(null);
   const [timeLeft, setTimeLeft] = useState(60);
 
-  // ✅ Helper to generate localStorage key per room+user
+  // to generate localStorage key per room+user
   const voteKey = (roomCode, name) => `vote:${roomCode}:${name}`;
 
   // Socket listeners

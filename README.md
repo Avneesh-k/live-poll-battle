@@ -96,8 +96,8 @@ Poll Closure: Uses setTimeout to auto-close after 60 seconds and emits "poll_clo
 ![Poll Screen](./assets/voting.png)
 
 # 📊 Live Poll Battle  
-[Live Frontend App](https://live-poll-battle-swart.vercel.app/) | 
- [Live Backend API](https://live-poll-battle-ceyg.onrender.com)
+[Live App](https://live-poll-battle-swart.vercel.app/) | 
+ 
 
 
 A real-time polling application that allows users to create or join a poll room and vote live...
