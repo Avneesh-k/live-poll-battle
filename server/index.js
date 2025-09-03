@@ -13,7 +13,7 @@ const io = new Server(server, { cors: { origin: "*" } });
 const rooms = {}; // In-memory store
 
 io.on("connection", (socket) => {
-  console.log("✅ A user connected");
+
 
   // Create room
   socket.on("create_room", ({ name, question, options }) => {
